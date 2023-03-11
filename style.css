@@ -1,0 +1,354 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    
+    
+    font-family: 'Oxygen', sans-serif;
+    
+}
+
+
+
+header {
+    position: relative;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #033C78;
+    box-shadow: 0 0 1rem black;
+    
+}
+
+.caja-logo {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 50rem;
+    width: fit-content;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.logo1 {
+    width: 30%;
+    margin-left: 5%;
+    max-width: 15rem;
+} 
+
+.isologo {
+    display: none;
+}
+
+.header__name {
+    width: fit-content;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.logo {
+    
+    width: 80%;
+    box-shadow: 0 0 3rem #7091F5;
+    border-radius: 0.5rem;
+}
+
+
+
+
+
+.contacto-header:hover {
+    
+    box-shadow: 0 0 3rem  #7091F5;
+    transition: 0.2s;
+}
+
+
+.contacto-header {
+    border: 3px black solid;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    border-radius: 0.5rem;
+    padding: 5%;
+    margin: 10% 5%;
+    text-decoration: none;
+    box-shadow: 0 0 0.7rem black;
+    
+    
+}
+
+.contacto-header a {
+    
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    appearance:initial;
+  }
+
+.vivienda-header {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    margin: 20% 5% auto;
+    
+
+    
+}
+.vivienda-header h2 {
+    font-size: 2.5rem;
+}
+
+
+h1 {
+    font-size: 5rem;
+    font-family: 'Kanit', sans-serif;
+}
+h2 {
+    font-size: 3rem;
+    font-family: 'Kanit', sans-serif;
+}
+h3 {
+    font-size: 2rem;
+    font-family: 'Kanit', sans-serif;
+}
+p, li{
+    font-size: 1.6rem;
+}
+
+
+main {
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.imagen-pagina {
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 7% auto;
+    margin-bottom: 15%;
+}
+
+
+
+.nuestros-servicios {
+    background-color: #bfbfbf;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+    
+   
+}
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.planificacion, .automatizacion, .post-venta {
+    background-color: #418FE0;
+    border-radius: 1.5rem;
+    padding: 5%;
+    margin: 3%;
+    min-width: calc(30rem - 20%);
+    text-align: justify;
+    width: auto;
+    box-shadow: 0 0 0.7rem black;
+}
+
+.articles img {
+    width: 100%;
+    max-width: 80rem;
+    margin-top: 10%;
+    box-shadow: 0 0 .5rem black;
+    border-radius: 0.5rem;
+}
+
+
+
+.articles h1 {
+   
+    text-align: center;
+    width: 100%;
+    color: black;
+    
+}
+    
+.articles h3 {
+    display: block;
+    margin-bottom: 2%;
+    text-align: start;
+    width: 100%;
+    
+}
+    
+
+.sobre-nosotros {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color: #418FE0;
+    border-radius: 1.5rem;
+    margin: 3%;
+    margin-top: 5rem;
+    padding: 4%;
+    min-width: 20%;
+    text-align: justify;
+    box-shadow: 0 0 0.7rem black;
+}
+
+.sobre-nosotros h2 {
+    margin-bottom: 3%;
+}
+
+li{
+    margin: 2%;
+    margin-left: 5%
+    
+}
+
+.FAQ >h1 {
+    margin: 3rem 1rem;
+    margin-top: 7rem;
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.FAQ {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #033C78;
+    justify-content: space-evenly;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 1rem black;
+    
+}
+
+
+
+  
+.accordion-item{
+    background-color: #418FE0;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    margin: 3%;
+    padding: 3%;
+    border-radius: 1.5rem;
+    width: 100%;
+    box-shadow: 0 0 .5rem #418FE0;
+}
+  
+  .accordion-header {
+    
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+ details summary {
+    cursor: pointer;
+    transition: all .7s ease-in-out;
+    list-style: none;
+ }
+
+details p {
+    margin-top: 5%;
+}
+
+details[open] summary {
+    text-decoration-style: none;
+    font-weight: bold;
+    
+    
+}
+
+details[open] {
+    text-decoration-style: none;
+    font-weight: bold;
+    box-shadow: 0 0 3rem 0 #bfbfbf;
+    transition: .3s;
+}
+
+
+
+
+footer {
+    display: flex;
+    padding: 1rem;
+    background-color: grey;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+footer >i {
+    display: none;
+}
+
+footer img {
+    margin: 0.7rem;
+    width: 4rem;
+    max-width: 7rem;
+}
+
+.logo-footer {
+    margin: 0.7rem;
+    margin-right: 7rem;
+    width: 15%;
+    max-width: 10rem;
+}
+
+.contacto {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    
+}
+
+
+.contacto a {
+    display: flex;
+    color: black;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+    appearance:initial;
+    
+}
+.telefono, .mail, .instagram  {
+    display: flex;
+    color: black;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    
+}
+

@@ -1,0 +1,8 @@
+Version mobile
+transiciones
+
+
+Versión desktop
+Intentar solucionar bug de faq
+crear sitemaps dentro de la misma vista para saltar a las secciones
+Preguntar sobre metatags si se pueden agregar https://developers.google.com/search/docs/advanced/crawling/special-tags?hl=es

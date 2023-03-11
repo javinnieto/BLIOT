@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+
+.caja-logo {
+    order: 10;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    width: max-content;
+    margin-bottom: 0;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+.header__name {
+    order: 20;
+    display: inline-block;
+    margin: 0;
+    padding-top: 4%;
+    width: fit-content;
+    font-size: 3rem;
+   
+    
+    
+}
+
+.isologo {
+    order: 10;
+    display: flex;
+    width: 8rem;
+}
+.logo1 {
+    display: none;
+}
+
+.logo {
+    display: none;
+}
+
+.contacto-header {
+    position: relative;
+    width: fit-content;
+    order: 20;
+    color: white;
+    display: inline-block;
+    background-color: black;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: .5rem;
+    padding: 2rem 4rem;
+    margin: 2rem;
+    
+}
+
+.vivienda-header {
+    order: 30;
+    margin: 1rem auto;
+}
+.vivienda-header h2 {
+    font-size: 2rem;
+}
+
+.nuestros-servicios {
+    
+    background-color: #bfbfbf;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.imagen-pagina {
+    order: 10;
+    display: inline-block;
+    width: 50%;
+    max-width: 80rem;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+    
+}
+
+
+.sobre-nosotros {
+    width: 40%;
+    order: 20;
+    background-color:#418FE0;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 0.7rem black;
+    margin: 4rem;
+    padding: 4rem;
+   
+}
+
+
+
+.articles {
+    order: 30;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    margin-top: 10rem;
+    max-width: 175rem;
+}
+
+.articles h1 {
+    border-bottom: 1px solid #033C78;
+    width: 80%;
+
+}
+
+.planificacion, .automatizacion, .post-venta {
+    background-color: #418FE0;
+    border-radius: 1.5rem;
+    padding: 3rem;
+    margin: 5rem;
+    width: 30%;
+    min-width: 30rem;
+    max-width: 40rem;
+ 
+}
+
+
+.FAQ h1 {
+    width: 100%;
+    font-size: 5rem;
+}
+
+.accordion-item{
+    width: 45%;
+    margin: 2%;
+    padding: 3%;
+    border-radius: 1.5rem;
+}
+
+footer {
+    flex-wrap: wrap;
+}
+
+
+footer >i {
+    position: relative;
+    font-size: 1.6rem;
+    display: inline-block;
+    order: 30;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+footer img {
+    margin: 0.7rem;
+    width: 3rem;
+}
+
+.logo-footer {
+    margin: 0.7rem;
+    width: 10rem;
+    
+    order: 10;
+}
+
+.contacto {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    order: 20;
+    margin-right: 10rem;
+    
+}
+
+
+.telefono, .mail, .instagram  {
+    display: flex;
+    flex-wrap: nowrap;
+    color: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    white-space: nowrap;
+    margin: 0 5%;
+}
+
+
+@media(min-width:1060px ) {
+    .caja-logo {
+        order: 10;
+
+    }
+    .vivienda-header {
+        order: 20;
+        position: relative;
+        width: fit-content;
+        display: inline-block;
+        margin: 1rem;
+    }
+    .contacto-header {
+        margin-left: 0;
+        order: 30;
+        
+        
+    }
+    
+   
+}
