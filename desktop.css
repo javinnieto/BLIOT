@@ -132,8 +132,8 @@ header {
     padding: 3rem;
     margin: 5rem;
     width: 30%;
-    min-width: 30rem;
-    max-width: 40rem;
+    min-width: 20rem;
+    max-width: 30rem;
  
 }
 
@@ -145,8 +145,9 @@ header {
 
 .accordion-item{
     width: 45%;
-    margin: 2%;
-    padding: 3%;
+    max-width: 100rem;
+    margin: 3rem;
+    padding: 5rem;
     border-radius: 1.5rem;
 }
 

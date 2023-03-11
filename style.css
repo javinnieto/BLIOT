@@ -64,6 +64,7 @@ header {
     width: 80%;
     box-shadow: 0 0 3rem #7091F5;
     border-radius: 0.5rem;
+    margin-top: 4rem;
 }
 
 
@@ -87,7 +88,8 @@ header {
     margin: 10% 5%;
     text-decoration: none;
     box-shadow: 0 0 0.7rem black;
-    
+    margin-top: 6rem;
+    margin-bottom: 10rem;
     
 }
 
@@ -97,7 +99,7 @@ header {
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 5px;
-    appearance:initial;
+    appearance: initial;
   }
 
 .vivienda-header {
@@ -249,7 +251,7 @@ li{
 
 
 
-  
+
 .accordion-item{
     background-color: #418FE0;
     border-bottom: 1px solid #ccc;
