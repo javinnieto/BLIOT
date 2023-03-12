@@ -32,9 +32,6 @@ header {
     padding-top: 4%;
     width: fit-content;
     font-size: 3rem;
-   
-    
-    
 }
 
 .isologo {
@@ -81,43 +78,48 @@ header {
     flex-direction:row;
     align-items: center;
     justify-content: center;
-   
+    width: 100%;
 }
 
 .imagen-pagina {
     order: 10;
     display: inline-block;
-    width: 50%;
+    width: 45%;
     max-width: 80rem;
     align-items: center;
     justify-content: center;
-    margin: 2rem auto;
+    margin: 2rem ;
     
 }
 
 
 .sobre-nosotros {
     width: 40%;
+    max-width: 78rem;
     order: 20;
     background-color:#418FE0;
     border-radius: 1.5rem;
     box-shadow: 0 0 0.7rem black;
     margin: 4rem;
     padding: 4rem;
-   
+   justify-self: start;
 }
 
 
 
 .articles {
     order: 30;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: start;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    align-content: center;
+    
     margin-top: 10rem;
-    max-width: 175rem;
+    
 }
 
 .articles h1 {
@@ -128,27 +130,66 @@ header {
 
 .planificacion, .automatizacion, .post-venta {
     background-color: #418FE0;
+    position: relative;
     border-radius: 1.5rem;
     padding: 3rem;
     margin: 5rem;
     width: 30%;
     min-width: 20rem;
-    max-width: 30rem;
+    max-width: 45rem;
  
 }
-
+.post-venta {
+    width: auto;
+    
+}
 
 .FAQ h1 {
     width: 100%;
     font-size: 5rem;
+    
 }
 
+details summary {
+    text-align: center;
+    min-height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr;
+    gap: 0rem 2%;
+    overflow: visible;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+    
+    
+    
+}
+
+
 .accordion-item{
-    width: 45%;
+    width: 100%;
     max-width: 100rem;
     margin: 3rem;
     padding: 5rem;
     border-radius: 1.5rem;
+    z-index: 10;
+    min-height: 15rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.accordion-item:hover {
+    transition: 0.3s;
+    box-shadow: 0 0 2rem #bfbfbf;
 }
 
 footer {
@@ -204,7 +245,7 @@ footer img {
 }
 
 
-@media(min-width:1060px ) {
+@media(min-width:1202px ) {
     .caja-logo {
         order: 10;
 
@@ -222,6 +263,21 @@ footer img {
         
         
     }
-    
+    header {
+        position: fixed;
+
+        z-index: 10;
+    }
+
+    details summary {
+        min-width: 34rem; 
+    }
+
+    .grid {
+        z-index: 1;
+    }
+    .nuestros-servicios {
+        margin-top:  11.7rem;
+    }
    
 }

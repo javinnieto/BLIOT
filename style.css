@@ -29,6 +29,8 @@ header {
     background-color: #033C78;
     box-shadow: 0 0 1rem black;
     
+    
+    
 }
 
 .caja-logo {
@@ -157,6 +159,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    position: relative;
     
     
    
@@ -237,18 +240,31 @@ li{
 }
 
 .FAQ {
+    width: 100%;
     color: white;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     background-color: #033C78;
     justify-content: space-evenly;
-    overflow: hidden;
+    overflow: visible;
     position: relative;
     box-shadow: 0 0 1rem black;
     
 }
-
+.grid {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    align-content: space-evenly;
+    overflow: hidden;
+    position: relative;
+    padding: 2rem;
+    
+}
 
 
 
@@ -289,7 +305,7 @@ details[open] summary {
 details[open] {
     text-decoration-style: none;
     font-weight: bold;
-    box-shadow: 0 0 3rem 0 #bfbfbf;
+    box-shadow: 0 0 2rem #bfbfbf;
     transition: .3s;
 }
 
