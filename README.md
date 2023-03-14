@@ -1,2 +1,2 @@
 # BLIOT
-web page to IOT company
+web page to IOT company.
