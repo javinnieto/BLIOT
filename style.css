@@ -145,7 +145,7 @@ main {
 
 .imagen-pagina {
     display: inline-block;
-    width: 100%;
+    width: 93%;
     align-items: center;
     justify-content: center;
     margin: 7% auto;
@@ -168,25 +168,53 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    justify-items: center;
+    align-content: center;
     align-items: center;
 }
+
+.articles h1 {
+    border-bottom: 1px solid grey;
+    width: 80%;
+}
+
+
+.plani, .auto, .post {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 90%;
+    margin-bottom: 10rem;
+    
+    
+}
+
 .planificacion, .automatizacion, .post-venta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
     background-color: #418FE0;
     border-radius: 1.5rem;
-    padding: 5%;
-    margin: 3%;
+    padding: 4%;
+    margin-bottom: 3%;
     min-width: calc(30rem - 20%);
     text-align: justify;
-    width: auto;
+    width: 100%;
     box-shadow: 0 0 0.7rem black;
 }
 
 .articles img {
     width: 100%;
-    max-width: 80rem;
-    margin-top: 10%;
-    box-shadow: 0 0 .5rem black;
-    border-radius: 0.5rem;
+    box-shadow: 0 0 .7rem black;
+    border-radius: 1.5rem;
 }
 
 
@@ -194,8 +222,9 @@ main {
 .articles h1 {
    
     text-align: center;
-    width: 100%;
+    width: 85%;
     color: black;
+    margin-bottom: 4rem;
     
 }
     
@@ -237,6 +266,8 @@ li{
     margin-top: 7rem;
     text-align: center;
     font-size: 3.5rem;
+    border-bottom: 1px solid #7887AB;
+    width: 80%;
 }
 
 .FAQ {

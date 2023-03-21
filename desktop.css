@@ -17,12 +17,14 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    align-content: center;
     justify-content: flex-start;
     text-align: left;
     width: max-content;
     margin-bottom: 0;
     margin-left: 3rem;
     margin-top: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .header__name {
@@ -37,7 +39,7 @@ header {
 .isologo {
     order: 10;
     display: flex;
-    width: 8rem;
+    width: 12rem;
 }
 .logo1 {
     display: none;
@@ -101,6 +103,7 @@ header {
     border-radius: 1.5rem;
     box-shadow: 0 0 0.7rem black;
     margin: 4rem;
+    margin-top: 10rem;
     padding: 4rem;
    justify-self: start;
 }
@@ -110,6 +113,7 @@ header {
 .articles {
     order: 30;
     width: 100%;
+    max-width: 200rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -117,35 +121,54 @@ header {
     align-items: flex-start;
     justify-content: space-evenly;
     align-content: center;
-    
     margin-top: 10rem;
     
 }
 
 .articles h1 {
-    border-bottom: 1px solid #033C78;
+    border-bottom: 1px solid grey;
     width: 80%;
+    max-width: 180rem;
 
 }
 
+.plani, .auto, .post {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    justify-content: center;
+    justify-items:center;
+    align-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 90%;
+    margin-bottom: 10rem;
+    max-width: 140rem;
+    
+    
+}
+
 .planificacion, .automatizacion, .post-venta {
+    display: flex;
     background-color: #418FE0;
     position: relative;
     border-radius: 1.5rem;
     padding: 3rem;
     margin: 5rem;
-    width: 30%;
+    width: 100%;
     min-width: 20rem;
-    max-width: 45rem;
+    max-width: 80rem;
+   
  
 }
-.post-venta {
-    width: auto;
-    
+
+.articles img {
+    max-width: 55rem;
 }
 
 .FAQ h1 {
-    width: 100%;
+    width: 80%;
     font-size: 5rem;
     
 }
@@ -169,6 +192,7 @@ details summary {
     align-items: center;
     justify-content: space-around;
     align-content: space-around;
+    max-width: 200rem;
     
     
     
@@ -224,24 +248,28 @@ footer img {
     height: 100%;
     display: flex;
     flex-direction: row;
-    align-items: start;
+    align-items: flex-end;
     justify-content: space-between;
     order: 20;
-    margin-right: 10rem;
+    width: 80%;
+    max-width: 80rem;
     
 }
 
 
 .telefono, .mail, .instagram  {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     color: black;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 100%;
     white-space: nowrap;
-    margin: 0 5%;
+    
+}
+.mail {
+    min-width: 35rem;
 }
 
 
